@@ -1,7 +1,5 @@
 # CLOUD NATIVE BENCHMARKS 
 
-## work in progress
-
 **Poliglot Local KIND Cluster for Testing and Benchmarking**
 
 ## Required Tools
@@ -10,3 +8,5 @@
 3. **Kubernetes in Docker (KIND)**  
 4. **Helm**  
 5. **kubectl**
+
+## work in progress
