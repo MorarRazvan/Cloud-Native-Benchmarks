@@ -1,0 +1,13 @@
+prometheus:
+  prometheusSpec:
+    nodeSelector:
+      prometheus-node: "true"
+
+alertmanager:
+  alertmanagerSpec:
+    nodeSelector:
+      prometheus-node: "true"
+
+grafana:
+  nodeSelector:
+    prometheus-node: "true"
